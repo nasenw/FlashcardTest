@@ -1,0 +1,33 @@
+﻿#Add_flashcard_container {
+    margin-top: 75px;
+    display: flex;
+    width: auto;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+#Add_flashcard_button {
+    display: flex;
+    white-space: pre;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+textarea {
+    resize: none;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+    font-size: 20px;
+}
+
+#Flashcard_added_confirmation {
+    margin-top: 125px;
+    text-align: center;
+}

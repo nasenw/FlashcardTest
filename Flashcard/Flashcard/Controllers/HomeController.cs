@@ -18,7 +18,7 @@ namespace Flashcard.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult AddFlashcard()
         {
             return View();
         }

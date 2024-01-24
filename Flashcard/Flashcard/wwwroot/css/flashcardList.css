@@ -1,0 +1,33 @@
+﻿#Flashcard_list_title {
+    text-align: center;
+    border: black solid 2px;
+    background-color: rgb(250, 151, 3);
+    text-decoration: underline;
+}
+
+#Flashcard_list_container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#flashcard {
+    margin-bottom: 25px;
+    display: flex;
+    width: auto;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+textarea {
+    resize: none;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+    font-size: 20px;
+}
