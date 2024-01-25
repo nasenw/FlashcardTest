@@ -3,39 +3,20 @@
 }
 <h1>@ViewData["Title"]</h1>
 
-<div id="Add_flashcard_container">
-      <div id="Add_question">
-        <h3>Insert Flashcard Question:</h3>
-        <textarea
-          name="text"
-          rows="10"
-          cols="35"
-          wrap="soft"
-          maxlength="250"
-        ></textarea>
-      </div>
-      <div id="Add_answer">
-        <h3>Insert Flashcard Answer:</h3>
-        <textarea
-          name="text"
-          rows="10"
-          cols="35"
-          wrap="soft"
-          maxlength="250"
-        ></textarea>
-      </div>
-    </div>
-    <div id="Add_flashcard_button">
-      <button>ADD FLASHCARD</button>
-    </div>
-    <div id="Flashcard_added_confirmation">
-      <h2>Good job for all of your hardwork!</h2>
-      <p>
-        To start studying your flashcards, go to the
-        <a href="#">Study your flashcards</a> page!
-      </p>
-      <p>
-        To review and edit all of your flashcards, go to the
-        <a href="#">Flashcard List</a> page!
-      </p>
-    </div>
+@Html.Partial("Partials/_FlashCardContainer.cshtml")
+
+<div id="Add_flashcard_button">
+    <button>ADD FLASHCARD</button>
+</div>
+
+<div id="Flashcard_added_confirmation">
+    <h2>Good job for all of your hardwork!</h2>
+    <p>
+    To start studying your flashcards, go to the
+    <a href="#">Study your flashcards</a> page!
+    </p>
+    <p>
+    To review and edit all of your flashcards, go to the
+    <a href="#">Flashcard List</a> page!
+    </p>
+</div>
